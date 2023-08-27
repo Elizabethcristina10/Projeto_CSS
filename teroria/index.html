@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teoria CSS</title>
+        <link rel="stylesheet" href="styles.css"/>        
+        <!-- no parágrafo Internal descrito abaixo 
+        se usa o css no corpo do código do html, mas nao é recomendando pq fica misturado e grande -->
+        <!-- control + : serve para comentar várias linhas do código ao mesmo tempo -->
+        <!-- <style>
+            body {
+                padding: 20px; 
+            }
+
+            p {
+            color: green;
+        } 
+        </style> -->   
+    </head>
+    <body>
+        <!-- no parágrafo inline como feito abaixo se usa o css na própria linha do código 
+        ( por isso nao é recomendado, dificulta a leitura do código)-->
+        <p style="color: red">Parágrafo Inline</p>
+        <!-- no parágrafo Internal se usa o css no corpo do código html, mas nao é recomendando 
+        porque fica misturado como código e grande -->
+        <p>Parágrafo Internal</p>
+        <!-- no parágrafo External se usa o css na própria linha do código-->
+        <p>Parágrafo External</p>
+
+        <!-- Exemplos de Classes e Ids -->
+        <!-- o nome em vermelho é o nome da classe/id e em branco é o nome que aparecerá no site-->
+
+        <h1 id="titulo-principal">Título da página</h1>
+        <!-- exemplo de classe chamada meu parágrafo e exemplo de id chamado algum conteúdo do site-->
+        <p class="meu-paragrafo">Algum conteúdo do site!</p> 
+        <p class="meu-paragrafo">Algum conteúdo do site 2!</p> 
+        <p class="meu-paragrafo">Algum conteúdo do site 3!</p> 
+
+        <!-- Tipos de Cores -->
+        <p class="nome-da-cor">Rosa</p>
+        <p class="hexa">Hexadecimal</p>
+        <p class="rgb">RGB</p>
+        <br>
+
+        <!-- Tipos de Fontes-->
+        <p class="serifada">Fonte Serifada</p>
+        <p class="sem-serifada">Sem Serifada</p>
+        <p class="mono-espacada">Mono Espaçada</p>
+
+        <!--Size e Weight-->
+        <p class="tamanho-fonte-grande">Esta fonte está grande</p>
+        <p class="tamanho-fonte-pequena">Esta fonte está pequena</p>
+        <p class="peso-fonte">Esta em negrito</p>
+        <p class="texto-italico">Esta em italico</p>
+
+        <!-- Box Model -->
+        <div class="box-model">
+            <p>Este é o box model</p>
+        </div>
+        <!-- Propriedades de texto-->
+        <p class="alinhamento">Texto ao Centro</p>
+        <p class="transform-maiuscula">Texto todo em maiúscula</p>
+        <p class="transform-minuscula">Texto todo em minúscula</p>
+        <!-- Espaçamento de linhas e letras -->
+        <p class="espacamento-texto">Texto com espaçamento entre linhas e letras</p>
+        <pc class="espacamento-texto">Texto com espaçamento entre linhas e letras</p>
+        <!-- Links-->
+        <div>
+            <a href="#" class="decoration">Meu link 1</a>
+        </div>
+        <div>
+            <a href="https://www.google.com" class="visitado">Meu link 2</a>
+        </div>
+        <div>
+            <a href="#" class="estilo-hover">Meu link 3</a>
+        </div>
+        <!-- Link em Button-->
+        <div>
+        <a href="#" class="btn"> Clique em mim</a>
+        </div>
+        <!-- Listas -->
+        <ul>
+            <li>Listas</li>
+            <li>Com</li>
+            <li>Bullets</li>
+        </ul>
+        <ul class="sem-estilo">
+            <li>Listas</li>
+            <li>Sem</li>
+            <li>Bullets</li>
+        </ul>
+        <!-- Display -->
+        <div class="inline"></div>
+        <div class="inline"></div>
+        <span class="bloco">Teste 1 </span>
+        <span class="bloco">Teste 2</span>
+        <div class="inline hidden"></div>
+        <!-- Positions Fixed-->
+        <div class="elemento-fixo">Este elemento vai ficar fixo na tela</div>
+        <!-- First child -->
+        <div class="primeiro-elemento">
+            <p>Este terá estilo</p>
+            <p>Este não</p>
+            <p>Este não</p>
+            <p>Este não</p>
+        </div>
+        <!-- Pseudo elemento -->
+        <p class="primeira-letra">Esta frase começa com uma letra diferente</p>
+        <!-- Especificidade -->
+        <h2> Meu titulo </h2>
+        <h2 class="titulo"> Meu título </h2>
+        <h2 class="titulo" id="meu-titulo-preferido"> Meu título </h2>
+    </body>
+</html>
+
