@@ -193,6 +193,7 @@ p,h1{
     background-color: red;
     padding: 4px;
 }
+
 /* Especificidade: estamos exemplificando que a estilização da
  classe ela sobrepõe a do título e o id sobrepõe a classe e o titulo*/
 
@@ -208,7 +209,7 @@ h2{
     color: blue;
 }
 
-/* IMPORTANT, ele sobrepõe todos os estilosmas nao é muito bom de usar */
+/* IMPORTANT, ele sobrepõe todos os estilos mas nao é muito bom de usar */
 
 h2{
     color: purple !important;
